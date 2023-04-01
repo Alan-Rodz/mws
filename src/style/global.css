@@ -1,0 +1,27 @@
+/* == General ================================================================== */
+/* make body full screen */
+html, 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* remove link decorations */
+a { color: inherit; text-decoration: none; }
+
+/* == Form ===================================================================== */
+input::placeholder {
+  color: #aaa !important/*matches ReMirror placeholder color*/;
+  font-style: italic;
+}
+
+/* == Animation ================================================================ */
+/* (SEE: src/ui/constant/appClasses) */
+.hoverable_dark, .hoverable_light { transition: all 0.3s ease; text-decoration: underline;  text-decoration-color: transparent; }
+.hoverable_dark:hover { text-decoration-color: white; }
+.hoverable_light:hover { text-decoration-color: black; }
+
+.scalable { transition: all 0.3s ease; }
+.scalable:hover { 
+  transform: scale(1.05); 
+}

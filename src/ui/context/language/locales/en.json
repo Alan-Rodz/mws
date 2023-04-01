@@ -1,0 +1,141 @@
+{
+  "appLayout": {
+    "navbar_footer": {
+      "home": "Home",
+      "language_selection": {
+        "change": "Change the language"
+      },
+      "project": "Projects",
+      "social_media": {
+        "code": "See the source code of this website on GitHub",
+        "github": "My GitHub profile",
+        "linkedin": "My LinkedIn profile",
+        "youtube": "My YouTube channel"
+      },
+      "theme": {
+        "light": "Turn the lights off",
+        "dark": "Turn the lights on"
+      }
+    }
+  },
+  "common": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "go_home": "Go home",
+    "non_existent_page": "Oops! The page you're looking for doesn't exist",
+    "see_more": "Ver más"
+  },
+  "pages": {
+    "home": {
+      "about_me": "About me",
+      "certs": "Certifications",
+      "csps": "CSPs",
+      "education": {
+        "education": "Education",
+        "l1": "BSc Computer Engineering - Centro Universitario de Ciencias Exactas e Ingenierías",
+        "l2": "January 2020 - Present",
+        "l3": "Pursuing Bachelors in Computer Engineering"
+      },
+      "experience": {
+        "experience": "Experience",
+        "w1": {
+          "l1": "Jr Developer - Role at Intersog",
+          "l2": "10/06/2022 - 17/01/2023",
+          "l3": "- React, TypeScript, Firebase, NextJS",
+          "l4": "- Planning, development and implementation of features for a collaborative online rich-text-editor using the ProseMirror library, both in the front and back end of the application",
+          "l5": "- Integration of Cloud Functions to handle API calls executed by the user while making use of the rich text editor",
+          "l6": "- Development of rich text editor cross-application integrations like CodeMirror, Excalidraw and Diagrams.net, as well as supporting complex-use-cases like LaTeX support",
+          "l7": "- Development of strategies to architect a collaborative rich text editor using Firebase as the backend",
+          "l8": "- Integration with OpenAI through the completion API, to provide an on-demand auto-complete experience powered by artificial intelligence, integrating with an application-specific schema"
+        }
+      },
+      "intro": "Hey there! My name is Alan. I like learning and building stuff. I'm particularly interested in AI at the moment. It will eventually replace us all, so might as well learn how it works!",
+      "libraries": "Libraries",
+      "other_skills": {
+        "other_skills": "Other skills",
+        "l1": "Active listener",
+        "l2": "“Always eager to learn new things”  mindset",
+        "l3": "Strong time management skills",
+        "l4": "“Get it done” attitude"
+      },
+      "skills": "Skills",
+      "tools": "Other tools",
+      "other_languages": "Other languages"
+    },
+    "projects": {
+      "clipboard_injector": {
+        "l1": "- Web application",
+        "l2": "- Built with React and CodeMirror",
+        "l3": "- Allows you to explicitly set the contents of your clipboard",
+        "l4": "- Very valuable when testing HTML-paste functionality for RTEs",
+        "l5": "- Supports plain text content and HTML content",
+        "l6": "- Inspired by a tool called Clipboard Inspector"
+      },
+      "cloudquiz": {
+        "l1": "- Flutter Android App",
+        "l2": "- Built with Dart and Firebase",
+        "l3": "- Help students practice for Cloud Computing exams",
+        "l4": "- Covers AWS, GCP, Azure, Terraform & Linux",
+        "l5": "- Available through an APK",
+        "l6": "- Has quiz progress tracking and user authentication"
+      },
+      "evnt": {
+        "l1": "- Event Management System",
+        "l2": "- Built with NextJS, ChakraUI, SupaBase",
+        "l3": "- Helps people connect with companies to contract their services for an event",
+        "l4": "- Allows companies to create their own profile and showcase their services",
+        "l5": "- Allows users to create events and choose companies to work with",
+        "l6": "- Largest codebase I've done by myself thus far"
+      },
+      "github": "Check these projects out on my GitHub",
+      "leobot": {
+        "l1": "- Facebook Chatbot",
+        "l2": "- Built with JavaScript and AWS",
+        "l3": "- Delivers quick and trustworthy responses to the most common career-related questions a student may have",
+        "l4": "- Uses AWS Lex to handle natural language processing and intent recognition",
+        "l5": "- Uses AWS Lambda Functions to handle the logic of the chatbot",
+        "l6": "- Uses AWS API Gateway to handle the API calls made by the chatbot"
+      },
+      "naturebase": {
+        "l1": "- Web application",
+        "l2": "- Built with React and Firebase",
+        "l3": "- A simple web application to see details of plants",
+        "l4": "- Uses Firestore to store the data",
+        "l5": "- Allows you to search for plants by name",
+        "l6": "- Built with the most common plants in Seattle WA in mind"
+      },
+      "notebook": {
+        "l1": "- Collaborative rich text editor",
+        "l2": "- Built with TypeScript, Firebase and ProseMirror",
+        "l3": "- Aims to provide a solid basis for a collaborative RTE using ProseMirror",
+        "l4": "- Allows you to create and edit documents",
+        "l5": "- Allows you to share documents with other users",
+        "l6": "- Allows you to see the changes other users make in real time"
+      },
+      "pm_devtool": {
+        "l1": "- ProseMirror testing environment",
+        "l2": "- Built with ChakraUI, TypeScript, React",
+        "l3": "- Provide a testing environment for rich-text-editor related features using the ProseMirror library",
+        "l4": "- Vital while building the Notebook project",
+        "l5": "- Testing for all kinds of RTE Nodes: Text, Images, Tables, Lists, etc.",
+        "l6": "- Quickly iterate on features without having to incorporate them into the full application"
+      },
+      "sgb": {
+        "l1": "- Simple library book management system",
+        "l2": "- Built with TypeScript and React",
+        "l3": "- A simple web application built for a school project",
+        "l4": "- Allows you to create, edit and delete books",
+        "l5": "- Allows you to search for books by name",
+        "l6": "- Allows you to search for books by author"
+      },
+      "svg_poc": {
+        "l1": "- Excalidraw-like application",
+        "l2": "- Built with TypeScript, bundled with Snowpack",
+        "l3": "- An SVG-Editor that allows you to draw rectangles, ellipses and lines",
+        "l4": "- It allows rotated resizing, which is super cool",
+        "l5": "- It allows you to move the shapes around",
+        "l6": "- Built with no frameworks"
+      }
+    }
+  }
+}

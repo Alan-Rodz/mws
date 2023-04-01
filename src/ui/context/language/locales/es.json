@@ -1,0 +1,141 @@
+{
+  "appLayout": {
+    "navbar_footer": {
+      "home": "Inicio",
+      "language_selection": {
+        "change": "Cambiar el idioma"
+      },
+      "project": "Proyectos",
+      "social_media": {
+        "code": "Ver el código de este sitio en GitHub",
+        "github": "Mi perfil de GitHub",
+        "linkedin": "Mi perfil de LinkedIn",
+        "youtube": "Mi canal de YouTube"
+      },
+      "theme": {
+        "light": "Apagar las luces",
+        "dark": "Prender las luces"
+      }
+    }
+  },
+  "common": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "go_home": "Ir a inicio",
+    "non_existent_page": "¡Oops! La página que estás buscando no existe",
+    "see_more": "Ver más"
+  },
+  "pages": {
+    "home": {
+      "about_me": "Acerca de mí",
+      "certs": "Certificaciones",
+      "csps": "CSPs",
+      "education": {
+        "education": "Educación",
+        "l1": "BSc Ingeniería en Computación - Centro Universitario de Ciencias Exactas e Ingenierías",
+        "l2": "Enero 2020 - Presente",
+        "l3": "Cursando la licenciatura en Ingeniería en Computación"
+      },
+      "experience": {
+        "experience": "Experiencia",
+        "w1": {
+          "l1": "Jr Developer - Rol en Intersog",
+          "l2": "10/06/2022 - 17/01/2023",
+          "l3": "- React, TypeScript, Firebase, NextJS",
+          "l4": "- Planeación, desarrollo e implementación de features para un editor de texto enriquecido (RTE) colaborativo haciendo uso de la librería ProseMirror, tanto en el front-end como el back-end de la aplicación",
+          "l5": "- Integración de Cloud Functions para manejar las llamadas a API realizadas por el usuario mientras se hace uso del editor de texto enriquecido",
+          "l6": "- Desarrollo de integraciones cruzadas de editores de texto enriquecidos con aplicaciones como CodeMirror, Excalidraw y Diagrams.net, además de soportar casos de uso complejos como el soporte de LaTeX",
+          "l7": "- Desarrollo de estrategias para arquitecturar un editor de texto enriquecido colaborativo utilizando Firebase como backend",
+          "l8": "- Integración con OpenAI a través de la API de completado para proporcionar una experiencia de auto-completado bajo demanda impulsada por inteligencia artificial, integrándose con un esquema específico de la aplicación"
+        }
+      },
+      "intro": "¡Hola!, me llamo Alan. La mayor parte del tiempo estoy aprendiendo o construyendo cosas. De momento estoy particularmente interesado en la IA. Nos reemplazará a todos, así que ¡por lo menos hay que saber cómo funciona!",
+      "libraries": "Librerías",
+      "other_skills": {
+        "other_skills": "Otras habilidades",
+        "l1": "Oyente activo",
+        "l2": "Siempre dispuesto a aprender cosas nuevas",
+        "l3": "Habilidades sólidas en gestión del tiempo",
+        "l4": "Actitud dispuesta a lograr los objetivos"
+      },
+      "skills": "Habilidades",
+      "tools": "Otras herramientas",
+      "other_languages": "Otros lenguajes"
+    },
+    "projects": {
+      "clipboard_injector": {
+        "l1": "- Aplicación web",
+        "l2": "- Construida con React y CodeMirror",
+        "l3": "- Permite establecer explícitamente el contenido del portapapeles",
+        "l4": "- Muy útil al probar la funcionalidad de pegado de HTML para RTEs",
+        "l5": "- Tiene soporte para texto plano y contenido HTML",
+        "l6": "- Inspirado por una herramienta llamada Clipboard Inspector"
+      },
+      "cloudquiz": {
+        "l1": "- Aplicación de Android Flutter",
+        "l2": "- Construida con Dart y Firebase",
+        "l3": "- Ayudar a los estudiantes a practicar para los exámenes relacionados con la computación en la nube",
+        "l4": "- Tiene exámenes para AWS, GCP, Azure, Terraform & Linux",
+        "l5": "- Disponible a través de una APK",
+        "l6": "- Tiene seguimiento de progreso en los exámenes y autenticación de usuarios"
+      },
+      "evnt": {
+        "l1": "- Sistema de gestión de eventos",
+        "l2": "- Construido con NextJS, ChakraUI, SupaBase",
+        "l3": "- Ayuda a las personas a conectarse con empresas para contratar sus servicios para un evento",
+        "l4": "- Le permite a las compañías crear su propio perfil y ofrecer sus servicios",
+        "l5": "- Le permite a los usuarios crear sus eventos y escoger qué compañías contratar",
+        "l6": "- La base de código más grande que he hecho por mí mismo hasta la fecha"
+      },
+      "github": "Revisa estos proyectos en mi GitHub",
+      "leobot": {
+        "l1": "- Chatbot de Facebook",
+        "l2": "- Construido con JavaScript y AWS",
+        "l3": "- Ofrece respuestas rápidas y confiables a las preguntas más comunes relacionadas con la carrera que un estudiante puede tener",
+        "l4": "- Usa AWS Lex para manejar el procesamiento del lenguaje natural y el reconocimiento de intenciones",
+        "l5": "- Usa funciones de AWS Lambda para manejar la lógica del chatbot",
+        "l6": "- Usa AWS API Gateway para manejar las llamadas API realizadas por el chatbot"
+      },
+      "naturebase": {
+        "l1": "- Aplicación web",
+        "l2": "- Construida con React y Firebase",
+        "l3": "- Una aplicación web simple para ver detalles de plantas",
+        "l4": "- Usa Forestaré para almacenar los datos",
+        "l5": "- Permite buscar plantas por nombre",
+        "l6": "- Construida pensando en las plantas más comunes en Seattle, WA"
+      },
+      "notebook": {
+        "l1": "- Editor de texto enriquecido colaborativo",
+        "l2": "- Construido con TypeScript, Firebase y ProseMirror",
+        "l3": "- Proporciona una base sólida para un RTE colaborativo utilizando ProseMirror",
+        "l4": "- Permite crear y editar documentos",
+        "l5": "- Permite compartir documentos con otros usuarios",
+        "l6": "- Permite ver los cambios que otros usuarios hacen en tiempo real"
+      },
+      "pm_devtool": {
+        "l1": "- Entorno de prueba de ProseMirror",
+        "l2": "- Construido con ChakraUI, TypeScript, React",
+        "l3": "- Proporciona un entorno de prueba para las características relacionadas con el editor de texto enriquecido utilizando la biblioteca ProseMirror",
+        "l4": "- Vital durante la construcción del proyecto Notebook",
+        "l5": "- Ofrece pruebas de todo tipo de nodos RTE: Tablas, imágenes, listas, etc.",
+        "l6": "- Permite iterar rápidamente sobre las features sin tener que incorporarlas en la app"
+      },
+      "sgb": {
+        "l1": "- Sistema simple de gestión de libros de biblioteca",
+        "l2": "- Construido con TypeScript y React",
+        "l3": "- Una aplicación web simple construida para un proyecto escolar",
+        "l4": "- Permite crear, editar y eliminar libros",
+        "l5": "- Permite buscar libros por nombre",
+        "l6": "- Permite buscar libros por autor"
+      },
+      "svg_poc": {
+        "l1": "- Aplicación similar a Excalidraw",
+        "l2": "- Construida con TypeScript, empaquetada con Snowpack",
+        "l3": "- Un editor SVG que le permite dibujar rectángulos, elipses y líneas",
+        "l4": "- Permite el redimensionamiento rotado, lo cual es genial",
+        "l5": "- Permite mover las formas alrededor",
+        "l6": "- Construida sin frameworks"
+      }
+    }
+  }
+}
