@@ -3,7 +3,7 @@
 export const WEBSITE_OWNER = 'Alan Rodz',
              WEBSITE_NAME = 'alanrodz.com';
 
-export const REPO_URL = 'https://github.com/Alan-Rodz/MyWebsite',
+export const REPO_URL = 'https://github.com/Alan-Rodz/mws',
              YOUTUBE_URL = 'https://www.youtube.com/@LaGemaArtificial',
              GITHUB_URL = 'https://github.com/Alan-Rodz',
              LINKEDIN_URL = 'https://www.linkedin.com/in/alan-rodriguez-16b074192/';
