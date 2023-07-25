@@ -11,14 +11,6 @@ export const REPO_URL = 'https://github.com/Alan-Rodz/mws',
 export const BORDER_RADIUS = '16px';
 
 // == Class =======================================================================
-export enum AOSAnimation {
-  FADE_UP = 'fade-up',
-  FADE_DOWN = 'fade-down',
-  FADE_LEFT = 'fade-left',
-  FADE_RIGHT = 'fade-right',
-}
-
-// == Class =======================================================================
 export const appClasses = {
   animation: {
     hoverable: (themeName: 'light' | 'dark') => `hoverable_${themeName}`,
