@@ -75,56 +75,59 @@ const LandingPage = () => {
       <div>
         <Flex props={{ flexDirection: flexDir, padding: '1em' }}>
           <Flex props={{ flex: '1', flexBasis: '50%' }}>
-            <Typography fontSize='1.25em' fontWeight='bold'>{translation('pages.home.about_me')}</Typography>
-            <Typography>
-              {translation('pages.home.intro')}
-            </Typography>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '1em' }}>
+              <Typography fontSize='1.25em' fontWeight='bold'>{translation('pages.home.about_me')}</Typography>
+              <Typography>
+                {translation('pages.home.intro')}
+              </Typography>
 
-            <Card elevation={8}>
-              <CardContent>
-                <Typography>{translation('pages.home.skills')}</Typography>
-                <div style={{ ...divProps }}>
-                  {skills.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
-                </div>
-              </CardContent>
-            </Card>
+              <Card elevation={8}>
+                <CardContent>
+                  <Typography>{translation('pages.home.skills')}</Typography>
+                  <div style={{ ...divProps }}>
+                    {skills.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
+                  </div>
+                </CardContent>
+              </Card>
 
-            <Card elevation={8}>
-              <CardContent>
-                <Typography>{translation('pages.home.libraries')}</Typography>
-                <div style={{ ...divProps }}>
-                  {libraries.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
-                </div>
-              </CardContent>
-            </Card>
+              <Card elevation={8}>
+                <CardContent>
+                  <Typography>{translation('pages.home.libraries')}</Typography>
+                  <div style={{ ...divProps }}>
+                    {libraries.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
+                  </div>
+                </CardContent>
+              </Card>
 
-            <Card elevation={8}>
-              <CardContent>
-                <Typography>{translation('pages.home.csps')}</Typography>
-                <div style={{ ...divProps }}>
-                  {csps.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
-                </div>
-              </CardContent>
-            </Card>
+              <Card elevation={8}>
+                <CardContent>
+                  <Typography>{translation('pages.home.csps')}</Typography>
+                  <div style={{ ...divProps }}>
+                    {csps.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
+                  </div>
+                </CardContent>
+              </Card>
 
 
-            <Card elevation={8}>
-              <CardContent>
-                <Typography>{translation('pages.home.tools')}</Typography>
-                <div style={{ ...divProps }}>
-                  {tools.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
-                </div>
-              </CardContent>
-            </Card>
+              <Card elevation={8}>
+                <CardContent>
+                  <Typography>{translation('pages.home.tools')}</Typography>
+                  <div style={{ ...divProps }}>
+                    {tools.map((obj, idx) => (<Link href={obj.href} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
+                  </div>
+                </CardContent>
+              </Card>
 
-            <Card elevation={8}>
-              <CardContent>
-                <Typography>{translation('pages.home.other_languages')}</Typography>
-                <div style={{ ...divProps }}>
-                  {previousExperience.map((obj, idx) => (<Link href={obj.title} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
-                </div>
-              </CardContent>
-            </Card>
+              <Card elevation={8}>
+                <CardContent>
+                  <Typography>{translation('pages.home.other_languages')}</Typography>
+                  <div style={{ ...divProps }}>
+                    {previousExperience.map((obj, idx) => (<Link href={obj.title} key={idx}><Chip clickable label={obj.title} variant='outlined' /></Link>))}
+                  </div>
+                </CardContent>
+              </Card>
+
+            </div>
           </Flex>
           <Center props={{ flex: '1', flexBasis: '50%', flexDirection: 'column' }}>
             <SinglePenguin />
