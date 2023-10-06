@@ -13,7 +13,7 @@ export const AppLayout: FC<ChildrenProps> = ({ children }) =>
   <FullPageLayout>
     <Head>
       <title>Alan Rodz</title>
-      <meta name='description' content="Alan Rodz" />
+      <meta name='description' content="Alan Ramiro Rodriguez Gonzalez" />
       <meta name='viewport' content='width=device-width, initial-scale=1' />
       <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
       <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
